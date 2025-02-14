@@ -2,6 +2,7 @@
 # ITELEC2
 
 def main():
+   
     user_input = input("Enter a number: ")
     number = int(user_input)
     if number % 2 == 0:
@@ -12,5 +13,6 @@ def main():
     #code here
     except ValueError:
     print("Invalid input. Please enter an integer.")
+
 if __name__ == "__main__":
     main()
